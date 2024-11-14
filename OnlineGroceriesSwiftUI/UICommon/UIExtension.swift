@@ -1,5 +1,3 @@
-
-
 import SwiftUI
 
 enum Gilroy: String {

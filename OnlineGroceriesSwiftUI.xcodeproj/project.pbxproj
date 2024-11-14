@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		90FD44A02CE62A3F0058D51A /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FD449F2CE62A300058D51A /* SignInView.swift */; };
 		CB6C33342A7CBA77007CECA2 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = CB6C33332A7CBA77007CECA2 /* SDWebImageSwiftUI */; };
 		CBAFEF092A76C8B5009DF242 /* OnlineGroceriesSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAFEF082A76C8B5009DF242 /* OnlineGroceriesSwiftUIApp.swift */; };
 		CBAFEF0D2A76C8B7009DF242 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBAFEF0C2A76C8B7009DF242 /* Assets.xcassets */; };
@@ -43,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		90FD449F2CE62A300058D51A /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		CBAFEF052A76C8B5009DF242 /* OnlineGroceriesSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnlineGroceriesSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBAFEF082A76C8B5009DF242 /* OnlineGroceriesSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineGroceriesSwiftUIApp.swift; sourceTree = "<group>"; };
 		CBAFEF0C2A76C8B7009DF242 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -198,6 +200,7 @@
 		CBAFEF402A76CA11009DF242 /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				90FD449F2CE62A300058D51A /* SignInView.swift */,
 				CBAFEF412A76CA29009DF242 /* WelcomeView.swift */,
 			);
 			path = Login;
@@ -353,6 +356,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90FD44A02CE62A3F0058D51A /* SignInView.swift in Sources */,
 				CBC7477E2A76D29100DD527C /* RoundButton.swift in Sources */,
 				CBAFEF092A76C8B5009DF242 /* OnlineGroceriesSwiftUIApp.swift in Sources */,
 				CBD690752A790C7B002EE6D3 /* UIKitExtension.swift in Sources */,
