@@ -45,8 +45,16 @@ struct SignUpView: View {
                         .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
                         .padding(.bottom, .screenWidth * 0.1)
                     
+                    LineTextField( title: "Username", placholder: "Enter your username", txt: $mainVM.txtUsername)
+                                           .padding(.bottom, .screenWidth * 0.07)
+                                       
+                                       LineTextField( title: "Email", placholder: "Enter your email address", txt: $mainVM.txtEmail, keyboardType: .emailAddress)
+                                           .padding(.bottom, .screenWidth * 0.07)
+                                       
+                                       LineSecureField( title: "Password", placholder: "Enter your password", txt: $mainVM.txtPassword, isShowPassword: $mainVM.isShowPassword)
+                                           .padding(.bottom, .screenWidth * 0.04)
                     
-                .padding(.bottom, .screenWidth * 0.04)
+                
                     
                     VStack {
                         Text("By continuing you agree to our")
