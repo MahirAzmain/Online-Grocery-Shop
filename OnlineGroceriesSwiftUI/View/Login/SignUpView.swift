@@ -45,6 +45,7 @@ struct SignUpView: View {
                         .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
                         .padding(.bottom, .screenWidth * 0.1)
                     
+
                     LineTextField( title: "Username", placholder: "Enter your username", txt: $mainVM.txtUsername)
                                            .padding(.bottom, .screenWidth * 0.07)
                                        
@@ -55,7 +56,8 @@ struct SignUpView: View {
                                            .padding(.bottom, .screenWidth * 0.04)
                     
                 
-                    
+
+       
                     VStack {
                         Text("By continuing you agree to our")
                             .font(.customfont(.medium, fontSize: 14))
