@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		90511C272CE7926C00DED999 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90511C262CE7920800DED999 /* SignUpView.swift */; };
+		90511C2C2CE793C600DED999 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90511C2B2CE793C100DED999 /* MainViewModel.swift */; };
+		90511C312CE7950100DED999 /* Globs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90511C302CE794FC00DED999 /* Globs.swift */; };
+		90511C332CE7954000DED999 /* LineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90511C322CE7953A00DED999 /* LineTextField.swift */; };
+		90511C352CE7966200DED999 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90511C342CE7966200DED999 /* UserModel.swift */; };
+		90511C372CE796BC00DED999 /* ServiceCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90511C362CE796B800DED999 /* ServiceCall.swift */; };
 		90FD44A02CE62A3F0058D51A /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FD449F2CE62A300058D51A /* SignInView.swift */; };
 		CB6C33342A7CBA77007CECA2 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = CB6C33332A7CBA77007CECA2 /* SDWebImageSwiftUI */; };
 		CBAFEF092A76C8B5009DF242 /* OnlineGroceriesSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAFEF082A76C8B5009DF242 /* OnlineGroceriesSwiftUIApp.swift */; };
@@ -44,6 +50,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		90511C262CE7920800DED999 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		90511C2B2CE793C100DED999 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		90511C302CE794FC00DED999 /* Globs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globs.swift; sourceTree = "<group>"; };
+		90511C322CE7953A00DED999 /* LineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineTextField.swift; sourceTree = "<group>"; };
+		90511C342CE7966200DED999 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserModel.swift; path = OnlineGroceriesSwiftUI/UserModel.swift; sourceTree = SOURCE_ROOT; };
+		90511C362CE796B800DED999 /* ServiceCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceCall.swift; sourceTree = "<group>"; };
 		90FD449F2CE62A300058D51A /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		CBAFEF052A76C8B5009DF242 /* OnlineGroceriesSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnlineGroceriesSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBAFEF082A76C8B5009DF242 /* OnlineGroceriesSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineGroceriesSwiftUIApp.swift; sourceTree = "<group>"; };
@@ -92,6 +104,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		90511C2A2CE7939A00DED999 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		CBAFEEFC2A76C8B4009DF242 = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +134,7 @@
 		CBAFEF072A76C8B5009DF242 /* OnlineGroceriesSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				90511C2A2CE7939A00DED999 /* ViewModel */,
 				CBD690732A790C49002EE6D3 /* Common */,
 				CBAFEF3F2A76C9E7009DF242 /* UICommon */,
 				CBAFEF3E2A76C9C9009DF242 /* ViewModel */,
@@ -177,6 +197,7 @@
 		CBAFEF3D2A76C9C2009DF242 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				90511C342CE7966200DED999 /* UserModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -184,6 +205,7 @@
 		CBAFEF3E2A76C9C9009DF242 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				90511C2B2CE793C100DED999 /* MainViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -191,6 +213,9 @@
 		CBAFEF3F2A76C9E7009DF242 /* UICommon */ = {
 			isa = PBXGroup;
 			children = (
+				90511C362CE796B800DED999 /* ServiceCall.swift */,
+				90511C322CE7953A00DED999 /* LineTextField.swift */,
+				90511C302CE794FC00DED999 /* Globs.swift */,
 				CBAFEF452A76CC18009DF242 /* UIExtension.swift */,
 				CBC7477D2A76D29100DD527C /* RoundButton.swift */,
 			);
@@ -200,6 +225,7 @@
 		CBAFEF402A76CA11009DF242 /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				90511C262CE7920800DED999 /* SignUpView.swift */,
 				90FD449F2CE62A300058D51A /* SignInView.swift */,
 				CBAFEF412A76CA29009DF242 /* WelcomeView.swift */,
 			);
@@ -359,9 +385,15 @@
 				90FD44A02CE62A3F0058D51A /* SignInView.swift in Sources */,
 				CBC7477E2A76D29100DD527C /* RoundButton.swift in Sources */,
 				CBAFEF092A76C8B5009DF242 /* OnlineGroceriesSwiftUIApp.swift in Sources */,
+				90511C272CE7926C00DED999 /* SignUpView.swift in Sources */,
 				CBD690752A790C7B002EE6D3 /* UIKitExtension.swift in Sources */,
 				CBAFEF462A76CC18009DF242 /* UIExtension.swift in Sources */,
 				CBAFEF422A76CA29009DF242 /* WelcomeView.swift in Sources */,
+				90511C2C2CE793C600DED999 /* MainViewModel.swift in Sources */,
+				90511C312CE7950100DED999 /* Globs.swift in Sources */,
+				90511C372CE796BC00DED999 /* ServiceCall.swift in Sources */,
+				90511C332CE7954000DED999 /* LineTextField.swift in Sources */,
+				90511C352CE7966200DED999 /* UserModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
