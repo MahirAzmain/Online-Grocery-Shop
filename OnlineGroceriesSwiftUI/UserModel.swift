@@ -5,7 +5,6 @@
 //  Created by Mahir Azmain Haque on 15/11/24.
 //
 
-
 import SwiftUI
 
 struct UserModel: Identifiable, Equatable {
