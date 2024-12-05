@@ -12,7 +12,7 @@ struct SignInView: View {
     
     @State var txtMobile: String = ""
 
-    
+     
     
     var body: some View {
         ZStack{
@@ -57,7 +57,7 @@ struct SignInView: View {
                     
                     
                     NavigationLink {
-                        //SignUpView()
+                        SignUpView()
                     } label: {
                         Text("Continue with Email Sign Up")
                             .font(.customfont(.semibold, fontSize: 18))
