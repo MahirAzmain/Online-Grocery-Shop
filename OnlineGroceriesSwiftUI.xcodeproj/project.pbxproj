@@ -23,6 +23,8 @@
 		908051E12D01BC3D004BFADD /* SectionTitleAll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908051E02D01BC37004BFADD /* SectionTitleAll.swift */; };
 		908051E32D01BCA8004BFADD /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908051E22D01BCA4004BFADD /* ProductCell.swift */; };
 		908051E52D01BD90004BFADD /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908051E42D01BD8C004BFADD /* CategoryCell.swift */; };
+		908051E72D01C17B004BFADD /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908051E62D01C17B004BFADD /* ProductModel.swift */; };
+		908051E92D01C39B004BFADD /* TypeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908051E82D01C39B004BFADD /* TypeModel.swift */; };
 		90FD44A02CE62A3F0058D51A /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FD449F2CE62A300058D51A /* SignInView.swift */; };
 		CB6C33342A7CBA77007CECA2 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = CB6C33332A7CBA77007CECA2 /* SDWebImageSwiftUI */; };
 		CBAFEF092A76C8B5009DF242 /* OnlineGroceriesSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAFEF082A76C8B5009DF242 /* OnlineGroceriesSwiftUIApp.swift */; };
@@ -76,6 +78,8 @@
 		908051E02D01BC37004BFADD /* SectionTitleAll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionTitleAll.swift; sourceTree = "<group>"; };
 		908051E22D01BCA4004BFADD /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 		908051E42D01BD8C004BFADD /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		908051E62D01C17B004BFADD /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProductModel.swift; path = OnlineGroceriesSwiftUI/ProductModel.swift; sourceTree = SOURCE_ROOT; };
+		908051E82D01C39B004BFADD /* TypeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TypeModel.swift; path = OnlineGroceriesSwiftUI/TypeModel.swift; sourceTree = SOURCE_ROOT; };
 		90FD449F2CE62A300058D51A /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		CBAFEF052A76C8B5009DF242 /* OnlineGroceriesSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnlineGroceriesSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBAFEF082A76C8B5009DF242 /* OnlineGroceriesSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineGroceriesSwiftUIApp.swift; sourceTree = "<group>"; };
@@ -245,6 +249,8 @@
 			isa = PBXGroup;
 			children = (
 				90511C342CE7966200DED999 /* UserModel.swift */,
+				908051E62D01C17B004BFADD /* ProductModel.swift */,
+				908051E82D01C39B004BFADD /* TypeModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -441,6 +447,7 @@
 				CBAFEF092A76C8B5009DF242 /* OnlineGroceriesSwiftUIApp.swift in Sources */,
 				90511C272CE7926C00DED999 /* SignUpView.swift in Sources */,
 				CBD690752A790C7B002EE6D3 /* UIKitExtension.swift in Sources */,
+				908051E92D01C39B004BFADD /* TypeModel.swift in Sources */,
 				CBAFEF462A76CC18009DF242 /* UIExtension.swift in Sources */,
 				CBAFEF422A76CA29009DF242 /* WelcomeView.swift in Sources */,
 				90511C3A2CE7BC8800DED999 /* MainTabView.swift in Sources */,
@@ -454,6 +461,7 @@
 				908051D92D01B593004BFADD /* ExploreView.swift in Sources */,
 				90511C332CE7954000DED999 /* LineTextField.swift in Sources */,
 				908051E12D01BC3D004BFADD /* SectionTitleAll.swift in Sources */,
+				908051E72D01C17B004BFADD /* ProductModel.swift in Sources */,
 				908051D62D01B493004BFADD /* HomeView.swift in Sources */,
 				908051D32D01B3FE004BFADD /* HomeViewModel.swift in Sources */,
 				90511C352CE7966200DED999 /* UserModel.swift in Sources */,
