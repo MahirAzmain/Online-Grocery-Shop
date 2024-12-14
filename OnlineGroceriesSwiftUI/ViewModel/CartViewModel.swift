@@ -27,9 +27,9 @@ class CartViewModel: ObservableObject
     
     @Published var deliveryType: Int = 1
     @Published var paymentType: Int = 1
-   // @Published var deliverObj: AddressModel?
-    //@Published var paymentObj: PaymentModel?
-   // @Published var promoObj: PromoCodeModel?
+    @Published var deliverObj: AddressModel?
+    @Published var paymentObj: PaymentModel?
+    @Published var promoObj: PromoCodeModel?
     
     @Published var deliverPriceAmount: String = ""
     @Published var discountAmount: String = ""
