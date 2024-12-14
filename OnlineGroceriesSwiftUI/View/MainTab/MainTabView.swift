@@ -123,11 +123,11 @@ struct MainTabView: View {
             }else if(homeVM.selectTab == 1) {
                 ExploreView()
             }else if(homeVM.selectTab == 2) {
-                MyCartView()
+              //  MyCartView()
             }else if(homeVM.selectTab == 3) {
                 FavouriteView()
             }else if(homeVM.selectTab == 4) {
-                AccountView()
+                // AccountView()
             }
             
             VStack{

@@ -43,7 +43,7 @@ struct SignInView: View {
                    
                     
                     NavigationLink {
-                      //  LoginView()
+                       LoginView()
                     } label: {
                         Text("Continue with Email Sign In")
                             .font(.customfont(.semibold, fontSize: 18))
