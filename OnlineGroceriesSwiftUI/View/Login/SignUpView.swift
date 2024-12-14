@@ -93,7 +93,7 @@ struct SignUpView: View {
                     
                     
                     NavigationLink {
-                       // LoginView()
+                      LoginView()
                     } label: {
                         HStack{
                             Text("Alredy have an account?")
