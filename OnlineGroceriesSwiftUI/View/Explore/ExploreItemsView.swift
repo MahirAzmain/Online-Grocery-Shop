@@ -59,7 +59,7 @@ struct ExploreItemsView: View {
                                     
                                     self.itemsVM.errorMessage = msg
                                     self.itemsVM.showError = true
-                                }
+                            }
                             }
                             
                         }
