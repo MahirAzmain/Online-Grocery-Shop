@@ -58,6 +58,7 @@
 		908052D22D0F3FDA004BFADD /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = 908052D12D0F3FDA004BFADD /* FirebaseFunctions */; };
 		908052D42D0F3FDA004BFADD /* FirebaseInAppMessaging-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 908052D32D0F3FDA004BFADD /* FirebaseInAppMessaging-Beta */; };
 		908052D62D0F3FDA004BFADD /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 908052D52D0F3FDA004BFADD /* FirebaseStorage */; };
+		908052DA2D1029E5004BFADD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 908052D92D1029E5004BFADD /* GoogleService-Info.plist */; };
 		90FD44A02CE62A3F0058D51A /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FD449F2CE62A300058D51A /* SignInView.swift */; };
 		CB6C33342A7CBA77007CECA2 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = CB6C33332A7CBA77007CECA2 /* SDWebImageSwiftUI */; };
 		CBAFEF092A76C8B5009DF242 /* OnlineGroceriesSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAFEF082A76C8B5009DF242 /* OnlineGroceriesSwiftUIApp.swift */; };
@@ -136,6 +137,7 @@
 		908052862D0DF8DC004BFADD /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 		908052BC2D0F3D1C004BFADD /* ExploreViewModel 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ExploreViewModel 2.swift"; sourceTree = "<group>"; };
 		908052C02D0F3D5C004BFADD /* OrderAccpetView 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OrderAccpetView 2.swift"; sourceTree = "<group>"; };
+		908052D92D1029E5004BFADD /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		90FD449F2CE62A300058D51A /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		CBAFEF052A76C8B5009DF242 /* OnlineGroceriesSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnlineGroceriesSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBAFEF082A76C8B5009DF242 /* OnlineGroceriesSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineGroceriesSwiftUIApp.swift; sourceTree = "<group>"; };
@@ -288,6 +290,7 @@
 				CBAFEF0C2A76C8B7009DF242 /* Assets.xcassets */,
 				CBAFEF0E2A76C8B7009DF242 /* Preview Content */,
 				CBAFEF432A76CB00009DF242 /* Launch Screen.storyboard */,
+				908052D92D1029E5004BFADD /* GoogleService-Info.plist */,
 			);
 			path = OnlineGroceriesSwiftUI;
 			sourceTree = "<group>";
@@ -542,6 +545,7 @@
 				CBAFEF392A76C960009DF242 /* Gilroy-Bold.ttf in Resources */,
 				CBAFEF0D2A76C8B7009DF242 /* Assets.xcassets in Resources */,
 				CBAFEF442A76CB00009DF242 /* Launch Screen.storyboard in Resources */,
+				908052DA2D1029E5004BFADD /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

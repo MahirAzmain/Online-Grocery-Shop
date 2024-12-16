@@ -6,6 +6,8 @@
 //
 
 import SwiftUI
+import FirebaseAuth
+import Firebase
 
 class MainViewModel: ObservableObject {
     static var shared: MainViewModel = MainViewModel()
@@ -30,11 +32,11 @@ class MainViewModel: ObservableObject {
             // User Not Login
         }
         
-        #if DEBUG
+#if DEBUG
         txtUsername = "user4"
         txtEmail = "test@gmail.com"
         txtPassword = "123456"
-        #endif
+#endif
         
     }
     
@@ -58,6 +60,18 @@ class MainViewModel: ObservableObject {
             self.showError = true
             return
         }
+        Auth.auth().signIn(withEmail: txtEmail, password: txtPassword) { [weak self] result, error in
+              if let error = error {
+                  self?.showError = true
+                  self?.errorMessage = error.localizedDescription
+                  return
+              }
+              
+              // Login successful
+              if let user = result?.user {
+                  print("User \(user.email ?? "No Email") logged in successfully!")
+              }
+          }
         
         ServiceCall.post(parameter: ["email": txtEmail, "password": txtPassword, "dervice_token":"" ], path: Globs.SV_LOGIN) { responseObj in
             if let response = responseObj as? NSDictionary {
@@ -77,7 +91,7 @@ class MainViewModel: ObservableObject {
             self.errorMessage = error?.localizedDescription ?? "Fail"
             self.showError = true
         }
-
+        
     }
     
     func serviceCallSignUp(){
@@ -100,6 +114,20 @@ class MainViewModel: ObservableObject {
             self.showError = true
             return
         }
+        Auth.auth().createUser(withEmail: txtEmail, password: txtPassword) { [weak self] result, error in
+            if let error = error {
+                self?.showError = true
+                self?.errorMessage = error.localizedDescription
+                return
+            }
+            
+            // Successfully created a user
+            if let user = result?.user {
+                print("User \(user.email ?? "No Email") created successfully!")
+            }
+        }
+    
+
         
         ServiceCall.post(parameter: [ "username": txtUsername , "email": txtEmail, "password": txtPassword, "dervice_token":"" ], path: Globs.SV_SIGN_UP) { responseObj in
             if let response = responseObj as? NSDictionary {
