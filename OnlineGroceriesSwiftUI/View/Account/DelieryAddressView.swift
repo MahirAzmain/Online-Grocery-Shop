@@ -60,7 +60,7 @@ struct DelieryAddressView: View {
                                 Spacer()
                                 
                                 NavigationLink {
-                                   // AddDeliveryAddressView(isEdit: true, editObj: aObj  )
+                                    AddDeliveryAddressView(isEdit: true, editObj: aObj  )
                                 } label: {
                                     Image(systemName: "pencil")
                                         .resizable()
@@ -130,7 +130,7 @@ struct DelieryAddressView: View {
                     
                     
                     NavigationLink {
-                       // AddDeliveryAddressView()
+                        AddDeliveryAddressView()
                     } label: {
                         Image("add_temp")
                             .resizable()
