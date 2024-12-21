@@ -15,6 +15,8 @@
 		90511C372CE796BC00DED999 /* ServiceCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90511C362CE796B800DED999 /* ServiceCall.swift */; };
 		90511C3A2CE7BC8800DED999 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90511C392CE7BC8400DED999 /* MainTabView.swift */; };
 		90511C3C2CE7CCA700DED999 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90511C3B2CE7CCA400DED999 /* LoginView.swift */; };
+		907954DA2D16CC540071C951 /* DelieryAddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907954D92D16CC500071C951 /* DelieryAddressView.swift */; };
+		907954DC2D16CC9F0071C951 /* DeliveryAddressViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907954DB2D16CC9B0071C951 /* DeliveryAddressViewModel.swift */; };
 		908051D32D01B3FE004BFADD /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908051D22D01B3F7004BFADD /* HomeViewModel.swift */; };
 		908051D62D01B493004BFADD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908051D52D01B48B004BFADD /* HomeView.swift */; };
 		908051D92D01B593004BFADD /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908051D82D01B586004BFADD /* ExploreView.swift */; };
@@ -104,6 +106,8 @@
 		90511C362CE796B800DED999 /* ServiceCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceCall.swift; sourceTree = "<group>"; };
 		90511C392CE7BC8400DED999 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		90511C3B2CE7CCA400DED999 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		907954D92D16CC500071C951 /* DelieryAddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelieryAddressView.swift; sourceTree = "<group>"; };
+		907954DB2D16CC9B0071C951 /* DeliveryAddressViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryAddressViewModel.swift; sourceTree = "<group>"; };
 		908051D22D01B3F7004BFADD /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		908051D52D01B48B004BFADD /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		908051D82D01B586004BFADD /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
@@ -240,6 +244,7 @@
 		9080527C2D0DF267004BFADD /* Account */ = {
 			isa = PBXGroup;
 			children = (
+				907954D92D16CC500071C951 /* DelieryAddressView.swift */,
 				9080527D2D0DF29B004BFADD /* AccountView.swift */,
 			);
 			path = Account;
@@ -365,6 +370,7 @@
 		CBAFEF3E2A76C9C9009DF242 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				907954DB2D16CC9B0071C951 /* DeliveryAddressViewModel.swift */,
 				908052702D0DE548004BFADD /* ExploreItemViewModel.swift */,
 				9080526E2D0DE3F1004BFADD /* CartViewModel.swift */,
 				908052392D034361004BFADD /* FavouriteViewModel.swift */,
@@ -578,11 +584,13 @@
 				908052792D0DF0BF004BFADD /* PaymentModel.swift in Sources */,
 				908052362D0342E3004BFADD /* FavouriteView.swift in Sources */,
 				908052772D0DF018004BFADD /* AddressModel.swift in Sources */,
+				907954DC2D16CC9F0071C951 /* DeliveryAddressViewModel.swift in Sources */,
 				CBAFEF092A76C8B5009DF242 /* OnlineGroceriesSwiftUIApp.swift in Sources */,
 				90511C272CE7926C00DED999 /* SignUpView.swift in Sources */,
 				CBD690752A790C7B002EE6D3 /* UIKitExtension.swift in Sources */,
 				908051E92D01C39B004BFADD /* TypeModel.swift in Sources */,
 				908052732D0DE61D004BFADD /* ExploreCategoryCell.swift in Sources */,
+				907954DA2D16CC540071C951 /* DelieryAddressView.swift in Sources */,
 				CBAFEF462A76CC18009DF242 /* UIExtension.swift in Sources */,
 				908052C12D0F3D5C004BFADD /* OrderAccpetView 2.swift in Sources */,
 				908052872D0DF8F4004BFADD /* CheckoutView.swift in Sources */,

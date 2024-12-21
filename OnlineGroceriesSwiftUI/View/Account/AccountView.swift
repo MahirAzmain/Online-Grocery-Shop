@@ -65,7 +65,7 @@ struct AccountView: View {
                             
                             
                             NavigationLink {
-                                //DelieryAddressView()
+                                DelieryAddressView()
                             } label: {
                                 AccountRow(title: "Delivery Address", icon: "a_delivery_address")
                             }
