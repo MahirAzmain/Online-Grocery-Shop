@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		902141BE2D177CDF0033D51C /* AddDeliveryAddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902141BD2D177CDB0033D51C /* AddDeliveryAddressView.swift */; };
+		903B996E2D17846D0037A526 /* PromoCodeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903B996D2D1784690037A526 /* PromoCodeViewModel.swift */; };
+		903B99702D17850D0037A526 /* PromoCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903B996F2D1785090037A526 /* PromoCodeView.swift */; };
 		90511C272CE7926C00DED999 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90511C262CE7920800DED999 /* SignUpView.swift */; };
 		90511C2C2CE793C600DED999 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90511C2B2CE793C100DED999 /* MainViewModel.swift */; };
 		90511C312CE7950100DED999 /* Globs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90511C302CE794FC00DED999 /* Globs.swift */; };
@@ -98,6 +101,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		902141BD2D177CDB0033D51C /* AddDeliveryAddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDeliveryAddressView.swift; sourceTree = "<group>"; };
+		903B996D2D1784690037A526 /* PromoCodeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoCodeViewModel.swift; sourceTree = "<group>"; };
+		903B996F2D1785090037A526 /* PromoCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoCodeView.swift; sourceTree = "<group>"; };
 		90511C262CE7920800DED999 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		90511C2B2CE793C100DED999 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		90511C302CE794FC00DED999 /* Globs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globs.swift; sourceTree = "<group>"; };
@@ -244,6 +250,8 @@
 		9080527C2D0DF267004BFADD /* Account */ = {
 			isa = PBXGroup;
 			children = (
+				903B996F2D1785090037A526 /* PromoCodeView.swift */,
+				902141BD2D177CDB0033D51C /* AddDeliveryAddressView.swift */,
 				907954D92D16CC500071C951 /* DelieryAddressView.swift */,
 				9080527D2D0DF29B004BFADD /* AccountView.swift */,
 			);
@@ -370,6 +378,7 @@
 		CBAFEF3E2A76C9C9009DF242 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				903B996D2D1784690037A526 /* PromoCodeViewModel.swift */,
 				907954DB2D16CC9B0071C951 /* DeliveryAddressViewModel.swift */,
 				908052702D0DE548004BFADD /* ExploreItemViewModel.swift */,
 				9080526E2D0DE3F1004BFADD /* CartViewModel.swift */,
@@ -577,6 +586,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9080527B2D0DF104004BFADD /* PromoCodeModel.swift in Sources */,
+				903B99702D17850D0037A526 /* PromoCodeView.swift in Sources */,
 				908052382D03431E004BFADD /* FavouriteRow.swift in Sources */,
 				90FD44A02CE62A3F0058D51A /* SignInView.swift in Sources */,
 				CBC7477E2A76D29100DD527C /* RoundButton.swift in Sources */,
@@ -589,6 +599,7 @@
 				90511C272CE7926C00DED999 /* SignUpView.swift in Sources */,
 				CBD690752A790C7B002EE6D3 /* UIKitExtension.swift in Sources */,
 				908051E92D01C39B004BFADD /* TypeModel.swift in Sources */,
+				903B996E2D17846D0037A526 /* PromoCodeViewModel.swift in Sources */,
 				908052732D0DE61D004BFADD /* ExploreCategoryCell.swift in Sources */,
 				907954DA2D16CC540071C951 /* DelieryAddressView.swift in Sources */,
 				CBAFEF462A76CC18009DF242 /* UIExtension.swift in Sources */,
@@ -607,6 +618,7 @@
 				908051DF2D01BAC6004BFADD /* SearchTextField.swift in Sources */,
 				90511C2C2CE793C600DED999 /* MainViewModel.swift in Sources */,
 				908052712D0DE54C004BFADD /* ExploreItemViewModel.swift in Sources */,
+				902141BE2D177CDF0033D51C /* AddDeliveryAddressView.swift in Sources */,
 				908051E32D01BCA8004BFADD /* ProductCell.swift in Sources */,
 				908051EF2D01CEDD004BFADD /* NutritionModel.swift in Sources */,
 				908052BD2D0F3D1C004BFADD /* ExploreViewModel 2.swift in Sources */,
