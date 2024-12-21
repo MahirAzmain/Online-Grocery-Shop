@@ -5,9 +5,10 @@
 //  Created by Mahir Azmain Haque on 5/12/24.
 //
 
+
 import SwiftUI
 
- struct HomeView: View {
+struct HomeView: View {
     @StateObject var homeVM = HomeViewModel.shared
     
     var body: some View {
