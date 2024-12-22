@@ -67,6 +67,13 @@
 		90D1BFD02D17F7B400A88EFC /* AddPaymentMethodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D1BFCF2D17F7AD00A88EFC /* AddPaymentMethodView.swift */; };
 		90D1BFD22D17F7E500A88EFC /* PaymentMethodsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D1BFD12D17F7E100A88EFC /* PaymentMethodsView.swift */; };
 		90D1BFD42D17F88D00A88EFC /* PaymentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D1BFD32D17F88700A88EFC /* PaymentViewModel.swift */; };
+		90D1BFD82D181FFB00A88EFC /* MyOrdersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D1BFD72D181FF700A88EFC /* MyOrdersView.swift */; };
+		90D1BFDA2D18205200A88EFC /* MyOrdersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D1BFD92D18204F00A88EFC /* MyOrdersViewModel.swift */; };
+		90D1BFDC2D18207700A88EFC /* MyOrdersDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D1BFDB2D18207300A88EFC /* MyOrdersDetailView.swift */; };
+		90D1BFDE2D1820A800A88EFC /* MyOrderDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D1BFDD2D1820A400A88EFC /* MyOrderDetailViewModel.swift */; };
+		90D1BFE02D1820FD00A88EFC /* MyOrderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D1BFDF2D1820FD00A88EFC /* MyOrderModel.swift */; };
+		90D1BFE22D1821FD00A88EFC /* OrderItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D1BFE12D1821FD00A88EFC /* OrderItemModel.swift */; };
+		90D1BFE42D18229300A88EFC /* OrderItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D1BFE32D18228F00A88EFC /* OrderItemRow.swift */; };
 		90FD44A02CE62A3F0058D51A /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FD449F2CE62A300058D51A /* SignInView.swift */; };
 		CB6C33342A7CBA77007CECA2 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = CB6C33332A7CBA77007CECA2 /* SDWebImageSwiftUI */; };
 		CBAFEF092A76C8B5009DF242 /* OnlineGroceriesSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAFEF082A76C8B5009DF242 /* OnlineGroceriesSwiftUIApp.swift */; };
@@ -154,6 +161,13 @@
 		90D1BFCF2D17F7AD00A88EFC /* AddPaymentMethodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPaymentMethodView.swift; sourceTree = "<group>"; };
 		90D1BFD12D17F7E100A88EFC /* PaymentMethodsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethodsView.swift; sourceTree = "<group>"; };
 		90D1BFD32D17F88700A88EFC /* PaymentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewModel.swift; sourceTree = "<group>"; };
+		90D1BFD72D181FF700A88EFC /* MyOrdersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOrdersView.swift; sourceTree = "<group>"; };
+		90D1BFD92D18204F00A88EFC /* MyOrdersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOrdersViewModel.swift; sourceTree = "<group>"; };
+		90D1BFDB2D18207300A88EFC /* MyOrdersDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOrdersDetailView.swift; sourceTree = "<group>"; };
+		90D1BFDD2D1820A400A88EFC /* MyOrderDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOrderDetailViewModel.swift; sourceTree = "<group>"; };
+		90D1BFDF2D1820FD00A88EFC /* MyOrderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MyOrderModel.swift; path = OnlineGroceriesSwiftUI/MyOrderModel.swift; sourceTree = SOURCE_ROOT; };
+		90D1BFE12D1821FD00A88EFC /* OrderItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OrderItemModel.swift; path = OnlineGroceriesSwiftUI/OrderItemModel.swift; sourceTree = SOURCE_ROOT; };
+		90D1BFE32D18228F00A88EFC /* OrderItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderItemRow.swift; sourceTree = "<group>"; };
 		90FD449F2CE62A300058D51A /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		CBAFEF052A76C8B5009DF242 /* OnlineGroceriesSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnlineGroceriesSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBAFEF082A76C8B5009DF242 /* OnlineGroceriesSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineGroceriesSwiftUIApp.swift; sourceTree = "<group>"; };
@@ -256,6 +270,8 @@
 		9080527C2D0DF267004BFADD /* Account */ = {
 			isa = PBXGroup;
 			children = (
+				90D1BFDB2D18207300A88EFC /* MyOrdersDetailView.swift */,
+				90D1BFD72D181FF700A88EFC /* MyOrdersView.swift */,
 				90D1BFD12D17F7E100A88EFC /* PaymentMethodsView.swift */,
 				90D1BFCF2D17F7AD00A88EFC /* AddPaymentMethodView.swift */,
 				903B996F2D1785090037A526 /* PromoCodeView.swift */,
@@ -379,6 +395,8 @@
 				908052762D0DF018004BFADD /* AddressModel.swift */,
 				908052782D0DF0BF004BFADD /* PaymentModel.swift */,
 				9080527A2D0DF104004BFADD /* PromoCodeModel.swift */,
+				90D1BFDF2D1820FD00A88EFC /* MyOrderModel.swift */,
+				90D1BFE12D1821FD00A88EFC /* OrderItemModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -386,6 +404,8 @@
 		CBAFEF3E2A76C9C9009DF242 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				90D1BFDD2D1820A400A88EFC /* MyOrderDetailViewModel.swift */,
+				90D1BFD92D18204F00A88EFC /* MyOrdersViewModel.swift */,
 				90D1BFD32D17F88700A88EFC /* PaymentViewModel.swift */,
 				903B996D2D1784690037A526 /* PromoCodeViewModel.swift */,
 				907954DB2D16CC9B0071C951 /* DeliveryAddressViewModel.swift */,
@@ -403,6 +423,7 @@
 		CBAFEF3F2A76C9E7009DF242 /* UICommon */ = {
 			isa = PBXGroup;
 			children = (
+				90D1BFE32D18228F00A88EFC /* OrderItemRow.swift */,
 				908052842D0DF707004BFADD /* CartItemRow.swift */,
 				9080527F2D0DF303004BFADD /* AccountRow.swift */,
 				908052722D0DE617004BFADD /* ExploreCategoryCell.swift */,
@@ -597,6 +618,7 @@
 				9080527B2D0DF104004BFADD /* PromoCodeModel.swift in Sources */,
 				903B99702D17850D0037A526 /* PromoCodeView.swift in Sources */,
 				908052382D03431E004BFADD /* FavouriteRow.swift in Sources */,
+				90D1BFDA2D18205200A88EFC /* MyOrdersViewModel.swift in Sources */,
 				90FD44A02CE62A3F0058D51A /* SignInView.swift in Sources */,
 				90D1BFD22D17F7E500A88EFC /* PaymentMethodsView.swift in Sources */,
 				CBC7477E2A76D29100DD527C /* RoundButton.swift in Sources */,
@@ -606,14 +628,18 @@
 				908052772D0DF018004BFADD /* AddressModel.swift in Sources */,
 				907954DC2D16CC9F0071C951 /* DeliveryAddressViewModel.swift in Sources */,
 				CBAFEF092A76C8B5009DF242 /* OnlineGroceriesSwiftUIApp.swift in Sources */,
+				90D1BFE22D1821FD00A88EFC /* OrderItemModel.swift in Sources */,
 				90511C272CE7926C00DED999 /* SignUpView.swift in Sources */,
 				CBD690752A790C7B002EE6D3 /* UIKitExtension.swift in Sources */,
 				908051E92D01C39B004BFADD /* TypeModel.swift in Sources */,
+				90D1BFE02D1820FD00A88EFC /* MyOrderModel.swift in Sources */,
+				90D1BFDC2D18207700A88EFC /* MyOrdersDetailView.swift in Sources */,
 				903B996E2D17846D0037A526 /* PromoCodeViewModel.swift in Sources */,
 				908052732D0DE61D004BFADD /* ExploreCategoryCell.swift in Sources */,
 				907954DA2D16CC540071C951 /* DelieryAddressView.swift in Sources */,
 				90D1BFD02D17F7B400A88EFC /* AddPaymentMethodView.swift in Sources */,
 				CBAFEF462A76CC18009DF242 /* UIExtension.swift in Sources */,
+				90D1BFE42D18229300A88EFC /* OrderItemRow.swift in Sources */,
 				908052C12D0F3D5C004BFADD /* OrderAccpetView 2.swift in Sources */,
 				90D1BFD42D17F88D00A88EFC /* PaymentViewModel.swift in Sources */,
 				908052872D0DF8F4004BFADD /* CheckoutView.swift in Sources */,
@@ -639,6 +665,7 @@
 				908052832D0DF6D5004BFADD /* MyCartView.swift in Sources */,
 				90511C372CE796BC00DED999 /* ServiceCall.swift in Sources */,
 				908051D92D01B593004BFADD /* ExploreView.swift in Sources */,
+				90D1BFD82D181FFB00A88EFC /* MyOrdersView.swift in Sources */,
 				90511C332CE7954000DED999 /* LineTextField.swift in Sources */,
 				908051E12D01BC3D004BFADD /* SectionTitleAll.swift in Sources */,
 				908051E72D01C17B004BFADD /* ProductModel.swift in Sources */,
@@ -648,6 +675,7 @@
 				908051D32D01B3FE004BFADD /* HomeViewModel.swift in Sources */,
 				90511C352CE7966200DED999 /* UserModel.swift in Sources */,
 				908051E52D01BD90004BFADD /* CategoryCell.swift in Sources */,
+				90D1BFDE2D1820A800A88EFC /* MyOrderDetailViewModel.swift in Sources */,
 				908051F12D01CF6F004BFADD /* ImageModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
