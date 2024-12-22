@@ -64,6 +64,9 @@
 		908052D42D0F3FDA004BFADD /* FirebaseInAppMessaging-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 908052D32D0F3FDA004BFADD /* FirebaseInAppMessaging-Beta */; };
 		908052D62D0F3FDA004BFADD /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 908052D52D0F3FDA004BFADD /* FirebaseStorage */; };
 		908052DA2D1029E5004BFADD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 908052D92D1029E5004BFADD /* GoogleService-Info.plist */; };
+		90D1BFD02D17F7B400A88EFC /* AddPaymentMethodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D1BFCF2D17F7AD00A88EFC /* AddPaymentMethodView.swift */; };
+		90D1BFD22D17F7E500A88EFC /* PaymentMethodsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D1BFD12D17F7E100A88EFC /* PaymentMethodsView.swift */; };
+		90D1BFD42D17F88D00A88EFC /* PaymentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D1BFD32D17F88700A88EFC /* PaymentViewModel.swift */; };
 		90FD44A02CE62A3F0058D51A /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FD449F2CE62A300058D51A /* SignInView.swift */; };
 		CB6C33342A7CBA77007CECA2 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = CB6C33332A7CBA77007CECA2 /* SDWebImageSwiftUI */; };
 		CBAFEF092A76C8B5009DF242 /* OnlineGroceriesSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAFEF082A76C8B5009DF242 /* OnlineGroceriesSwiftUIApp.swift */; };
@@ -148,6 +151,9 @@
 		908052BC2D0F3D1C004BFADD /* ExploreViewModel 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ExploreViewModel 2.swift"; sourceTree = "<group>"; };
 		908052C02D0F3D5C004BFADD /* OrderAccpetView 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OrderAccpetView 2.swift"; sourceTree = "<group>"; };
 		908052D92D1029E5004BFADD /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		90D1BFCF2D17F7AD00A88EFC /* AddPaymentMethodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPaymentMethodView.swift; sourceTree = "<group>"; };
+		90D1BFD12D17F7E100A88EFC /* PaymentMethodsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethodsView.swift; sourceTree = "<group>"; };
+		90D1BFD32D17F88700A88EFC /* PaymentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewModel.swift; sourceTree = "<group>"; };
 		90FD449F2CE62A300058D51A /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		CBAFEF052A76C8B5009DF242 /* OnlineGroceriesSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnlineGroceriesSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBAFEF082A76C8B5009DF242 /* OnlineGroceriesSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineGroceriesSwiftUIApp.swift; sourceTree = "<group>"; };
@@ -250,6 +256,8 @@
 		9080527C2D0DF267004BFADD /* Account */ = {
 			isa = PBXGroup;
 			children = (
+				90D1BFD12D17F7E100A88EFC /* PaymentMethodsView.swift */,
+				90D1BFCF2D17F7AD00A88EFC /* AddPaymentMethodView.swift */,
 				903B996F2D1785090037A526 /* PromoCodeView.swift */,
 				902141BD2D177CDB0033D51C /* AddDeliveryAddressView.swift */,
 				907954D92D16CC500071C951 /* DelieryAddressView.swift */,
@@ -378,6 +386,7 @@
 		CBAFEF3E2A76C9C9009DF242 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				90D1BFD32D17F88700A88EFC /* PaymentViewModel.swift */,
 				903B996D2D1784690037A526 /* PromoCodeViewModel.swift */,
 				907954DB2D16CC9B0071C951 /* DeliveryAddressViewModel.swift */,
 				908052702D0DE548004BFADD /* ExploreItemViewModel.swift */,
@@ -589,6 +598,7 @@
 				903B99702D17850D0037A526 /* PromoCodeView.swift in Sources */,
 				908052382D03431E004BFADD /* FavouriteRow.swift in Sources */,
 				90FD44A02CE62A3F0058D51A /* SignInView.swift in Sources */,
+				90D1BFD22D17F7E500A88EFC /* PaymentMethodsView.swift in Sources */,
 				CBC7477E2A76D29100DD527C /* RoundButton.swift in Sources */,
 				9080526A2D0DE32B004BFADD /* ExploreCategoryModel.swift in Sources */,
 				908052792D0DF0BF004BFADD /* PaymentModel.swift in Sources */,
@@ -602,8 +612,10 @@
 				903B996E2D17846D0037A526 /* PromoCodeViewModel.swift in Sources */,
 				908052732D0DE61D004BFADD /* ExploreCategoryCell.swift in Sources */,
 				907954DA2D16CC540071C951 /* DelieryAddressView.swift in Sources */,
+				90D1BFD02D17F7B400A88EFC /* AddPaymentMethodView.swift in Sources */,
 				CBAFEF462A76CC18009DF242 /* UIExtension.swift in Sources */,
 				908052C12D0F3D5C004BFADD /* OrderAccpetView 2.swift in Sources */,
+				90D1BFD42D17F88D00A88EFC /* PaymentViewModel.swift in Sources */,
 				908052872D0DF8F4004BFADD /* CheckoutView.swift in Sources */,
 				CBAFEF422A76CA29009DF242 /* WelcomeView.swift in Sources */,
 				9080523A2D034365004BFADD /* FavouriteViewModel.swift in Sources */,
