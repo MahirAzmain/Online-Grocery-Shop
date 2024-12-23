@@ -50,14 +50,14 @@ struct AccountView: View {
                         VStack{
                             
                             NavigationLink {
-                               // MyOrdersView()
+                               MyOrdersView()
                             } label: {
                                 AccountRow(title: "My Orders", icon: "a_order")
                             }
                             
                             
                             NavigationLink {
-                              //  MyDetailsView()
+                                MyDetailsView()
                             } label: {
                                 AccountRow(title: "My Details", icon: "a_my_detail")
                             }
@@ -72,13 +72,13 @@ struct AccountView: View {
                             
                             
                             NavigationLink {
-                               // PaymentMethodsView()
+                                PaymentMethodsView()
                             } label: {
                                 AccountRow(title: "Payment Methods", icon: "paymenth_methods")
                             }
 
                             NavigationLink {
-                               // PromoCodeView()
+                                PromoCodeView()
                             } label: {
                                 AccountRow(title: "Promo Code", icon: "a_promocode")
                             }
@@ -88,7 +88,7 @@ struct AccountView: View {
                         
                         VStack{
                             NavigationLink {
-                               // NotificationView()
+                                NotificationView()
                             } label: {
                                 AccountRow(title: "Notifications", icon: "a_noitification")
                             }
