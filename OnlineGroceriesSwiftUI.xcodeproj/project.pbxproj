@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9009B56A2D1C43CD003A8CEE /* OTPTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9009B5692D1C4361003A8CEE /* OTPTextField.swift */; };
+		9009B56C2D1C4403003A8CEE /* TextArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9009B56B2D1C43FF003A8CEE /* TextArea.swift */; };
 		9015A1BF2D1993000083F566 /* OTPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9015A1BE2D1992FC0083F566 /* OTPView.swift */; };
 		9015A1C12D19934B0083F566 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9015A1C02D1993480083F566 /* ForgotPasswordView.swift */; };
 		9015A1C32D19937F0083F566 /* ForgotPasswordSetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9015A1C22D19937B0083F566 /* ForgotPasswordSetView.swift */; };
@@ -123,6 +125,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9009B5692D1C4361003A8CEE /* OTPTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPTextField.swift; sourceTree = "<group>"; };
+		9009B56B2D1C43FF003A8CEE /* TextArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextArea.swift; sourceTree = "<group>"; };
 		9015A1BE2D1992FC0083F566 /* OTPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPView.swift; sourceTree = "<group>"; };
 		9015A1C02D1993480083F566 /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
 		9015A1C22D19937B0083F566 /* ForgotPasswordSetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordSetView.swift; sourceTree = "<group>"; };
@@ -455,6 +459,8 @@
 		CBAFEF3F2A76C9E7009DF242 /* UICommon */ = {
 			isa = PBXGroup;
 			children = (
+				9009B56B2D1C43FF003A8CEE /* TextArea.swift */,
+				9009B5692D1C4361003A8CEE /* OTPTextField.swift */,
 				90D1BFF92D194E7900A88EFC /* CountryPickerUI.swift */,
 				90D1BFE32D18228F00A88EFC /* OrderItemRow.swift */,
 				908052842D0DF707004BFADD /* CartItemRow.swift */,
@@ -710,6 +716,7 @@
 				908052802D0DF307004BFADD /* AccountRow.swift in Sources */,
 				90511C312CE7950100DED999 /* Globs.swift in Sources */,
 				908052832D0DF6D5004BFADD /* MyCartView.swift in Sources */,
+				9009B56C2D1C4403003A8CEE /* TextArea.swift in Sources */,
 				90511C372CE796BC00DED999 /* ServiceCall.swift in Sources */,
 				908051D92D01B593004BFADD /* ExploreView.swift in Sources */,
 				90D1BFD82D181FFB00A88EFC /* MyOrdersView.swift in Sources */,
@@ -725,6 +732,7 @@
 				908051E52D01BD90004BFADD /* CategoryCell.swift in Sources */,
 				90D1BFDE2D1820A800A88EFC /* MyOrderDetailViewModel.swift in Sources */,
 				908051F12D01CF6F004BFADD /* ImageModel.swift in Sources */,
+				9009B56A2D1C43CD003A8CEE /* OTPTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
