@@ -25,7 +25,9 @@
 
 ![Pastel Food Drive A4 Flyer (2)](https://github.com/user-attachments/assets/e0f6fa41-0b21-4335-84ec-3bfdb82c3756)
 
+**PowerPoint presentation:**
 
+[Grocery-shop.pptx](https://github.com/user-attachments/files/21698707/Grocery-shop.pptx)
 
 
 
